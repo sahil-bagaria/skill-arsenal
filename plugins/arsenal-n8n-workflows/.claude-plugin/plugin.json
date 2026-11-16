@@ -1,0 +1,8 @@
+{
+  "name": "arsenal-n8n-workflows",
+  "version": "1.0.0",
+  "description": "n8n-workflows: find and adapt n8n automation templates. (1 skill)",
+  "author": {
+    "name": "Sahil Bagaria"
+  }
+}
