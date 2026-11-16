@@ -1,0 +1,447 @@
+{
+  "name": "skill-arsenal",
+  "description": "Sahil's Skill Arsenal: 15 skill packs installed straight from their original makers' GitHub repos, so every update flows through.",
+  "owner": {
+    "name": "Sahil Bagaria"
+  },
+  "plugins": [
+    {
+      "name": "arsenal-gstack",
+      "description": "Garry Tan's gstack: plan, build, review, ship and deploy as an AI engineering team.",
+      "source": {
+        "source": "github",
+        "repo": "garrytan/gstack"
+      },
+      "strict": false,
+      "skills": [
+        "./",
+        "./autoplan",
+        "./benchmark",
+        "./benchmark-models",
+        "./browse",
+        "./canary",
+        "./captain",
+        "./careful",
+        "./codex",
+        "./connect-chrome",
+        "./context-restore",
+        "./context-save",
+        "./cso",
+        "./design-consultation",
+        "./design-html",
+        "./design-motion",
+        "./design-review",
+        "./design-shotgun",
+        "./deslop-shared-libs",
+        "./devex-review",
+        "./diagram",
+        "./document-generate",
+        "./document-release",
+        "./eval-plan",
+        "./freeze",
+        "./gstack-upgrade",
+        "./guard",
+        "./health",
+        "./ios-clean",
+        "./ios-design-review",
+        "./ios-fix",
+        "./ios-qa",
+        "./ios-sync",
+        "./land-and-deploy",
+        "./landing-report",
+        "./learn",
+        "./make-pdf",
+        "./modernize",
+        "./office-hours",
+        "./open-gstack-browser",
+        "./pair-agent",
+        "./plan-ceo-review",
+        "./plan-design-review",
+        "./plan-devex-review",
+        "./plan-eng-review",
+        "./plan-tune",
+        "./qa",
+        "./qa-only",
+        "./retro",
+        "./review",
+        "./runaway-stopper",
+        "./scrape",
+        "./setup-browser-cookies",
+        "./setup-deploy",
+        "./setup-gbrain",
+        "./ship",
+        "./skillify",
+        "./spec",
+        "./sync-gbrain",
+        "./test-audit",
+        "./ubicloud",
+        "./unfreeze",
+        "./verify",
+        "./write-skill"
+      ],
+      "homepage": "https://github.com/garrytan/gstack",
+      "license": "MIT",
+      "author": {
+        "name": "Garry Tan"
+      }
+    },
+    {
+      "name": "arsenal-ui-ux-pro-max",
+      "description": "UI/UX Pro Max: design intelligence for interfaces, brand, banners, slides and logos.",
+      "source": {
+        "source": "git-subdir",
+        "url": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "path": ".claude/skills"
+      },
+      "strict": false,
+      "skills": [
+        "./banner-design",
+        "./brand",
+        "./design",
+        "./design-system",
+        "./slides",
+        "./ui-styling",
+        "./ui-ux-pro-max"
+      ],
+      "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT",
+      "author": {
+        "name": "nextlevelbuilder"
+      }
+    },
+    {
+      "name": "day-trader-skill",
+      "description": "Day trading: 11 skills from scanner to broker, paper by default.",
+      "source": {
+        "source": "github",
+        "repo": "Jakeschincariol/day-trader-skill"
+      },
+      "homepage": "https://github.com/Jakeschincariol/day-trader-skill",
+      "license": "MIT",
+      "author": {
+        "name": "Jake Schincariol"
+      }
+    },
+    {
+      "name": "arsenal-ponytail",
+      "description": "ponytail: anti-over-engineering mode with review, audit, debt and gain tools.",
+      "source": {
+        "source": "git-subdir",
+        "url": "DietrichGebert/ponytail",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./ponytail",
+        "./ponytail-audit",
+        "./ponytail-debt",
+        "./ponytail-gain",
+        "./ponytail-help",
+        "./ponytail-review"
+      ],
+      "homepage": "https://github.com/DietrichGebert/ponytail",
+      "license": "MIT",
+      "author": {
+        "name": "Dietrich Gebert"
+      }
+    },
+    {
+      "name": "arsenal-claude-mem",
+      "description": "claude-mem workflow skills: memory search, plans, build, babysit, standup, digests and more (skills only, no hooks).",
+      "source": {
+        "source": "git-subdir",
+        "url": "thedotmack/claude-mem",
+        "path": "plugin/skills"
+      },
+      "strict": false,
+      "skills": [
+        "./agent-cost-report",
+        "./babysit",
+        "./backup-setup",
+        "./build",
+        "./build-and-release",
+        "./ccs-align",
+        "./childhood",
+        "./cloud-sync",
+        "./design-is",
+        "./do",
+        "./handoff",
+        "./how-it-works",
+        "./knowledge-agent",
+        "./learn-codebase",
+        "./make-plan",
+        "./mem-search",
+        "./mode-creator",
+        "./oh-my-issues",
+        "./owner-goals",
+        "./pathfinder",
+        "./release",
+        "./request-progress",
+        "./screenpipe",
+        "./smart-explore",
+        "./standup",
+        "./timeline-report",
+        "./version-bump",
+        "./weekly-digests",
+        "./what-the",
+        "./wowerpoint"
+      ],
+      "homepage": "https://github.com/thedotmack/claude-mem",
+      "license": "AGPL-3.0",
+      "author": {
+        "name": "thedotmack"
+      }
+    },
+    {
+      "name": "arsenal-prompt-master",
+      "description": "prompt-master: production-ready prompts for any AI tool.",
+      "source": {
+        "source": "github",
+        "repo": "nidhinjs/prompt-master"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "homepage": "https://github.com/nidhinjs/prompt-master",
+      "license": "MIT",
+      "author": {
+        "name": "nidhinjs"
+      }
+    },
+    {
+      "name": "arsenal-agent-reach",
+      "description": "Agent-Reach: internet research across 15 platforms.",
+      "source": {
+        "source": "git-subdir",
+        "url": "Panniantong/Agent-Reach",
+        "path": "agent_reach/skill"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "homepage": "https://github.com/Panniantong/Agent-Reach",
+      "license": "MIT",
+      "author": {
+        "name": "Panniantong"
+      }
+    },
+    {
+      "name": "arsenal-omniroute",
+      "description": "OmniRoute: LLM gateway CLI and REST API skills.",
+      "source": {
+        "source": "git-subdir",
+        "url": "diegosouzapw/OmniRoute",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./cli-a2a",
+        "./cli-backup-sync",
+        "./cli-batches",
+        "./cli-chat",
+        "./cli-compression",
+        "./cli-contexts",
+        "./cli-cost-usage",
+        "./cli-eval",
+        "./cli-health",
+        "./cli-keys",
+        "./cli-mcp",
+        "./cli-models",
+        "./cli-plugins-skills",
+        "./cli-policy-audit",
+        "./cli-providers",
+        "./cli-resilience",
+        "./cli-routing",
+        "./cli-serve",
+        "./cli-setup",
+        "./cli-skill-collector",
+        "./cli-tunnel",
+        "./config-codex-cli",
+        "./omni-agents-a2a",
+        "./omni-api-keys",
+        "./omni-auth",
+        "./omni-budget",
+        "./omni-cache",
+        "./omni-cli-tools",
+        "./omni-combos-routing",
+        "./omni-compression",
+        "./omni-context-rtk",
+        "./omni-db-backups",
+        "./omni-github-skills",
+        "./omni-inference",
+        "./omni-mcp",
+        "./omni-models",
+        "./omni-providers",
+        "./omni-proxies",
+        "./omni-resilience",
+        "./omni-settings",
+        "./omni-sync-cloud",
+        "./omni-tunnels",
+        "./omni-usage-logs",
+        "./omni-version-manager",
+        "./omni-webhooks",
+        "./ponytail"
+      ],
+      "homepage": "https://github.com/diegosouzapw/OmniRoute",
+      "license": "MIT",
+      "author": {
+        "name": "diegosouzapw"
+      }
+    },
+    {
+      "name": "arsenal-data-science",
+      "description": "Data, ML & science: statistics, dataframes, machine learning and visualisation (K-Dense scientific skills).",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agent-skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./aeon",
+        "./dask",
+        "./exploratory-data-analysis",
+        "./get-available-resources",
+        "./markdown-mermaid-writing",
+        "./matlab",
+        "./matplotlib",
+        "./modal",
+        "./networkx",
+        "./optimize-for-gpu",
+        "./polars",
+        "./pymc",
+        "./pymoo",
+        "./pytorch-lightning",
+        "./scikit-learn",
+        "./scikit-survival",
+        "./seaborn",
+        "./shap",
+        "./simpy",
+        "./stable-baselines3",
+        "./statistical-analysis",
+        "./statistical-power",
+        "./statsmodels",
+        "./sympy",
+        "./timesfm-forecasting",
+        "./transformers",
+        "./umap-learn",
+        "./vaex",
+        "./what-if-oracle",
+        "./zarr-python"
+      ],
+      "homepage": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "license": "MIT (each skill keeps its own license)",
+      "author": {
+        "name": "K-Dense AI"
+      }
+    },
+    {
+      "name": "arsenal-research",
+      "description": "Research & web: Exa, Parallel, research lookup, public databases, US fiscal data, Open Notebook (K-Dense).",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agent-skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./database-lookup",
+        "./exa-search",
+        "./open-notebook",
+        "./parallel-web",
+        "./research-lookup",
+        "./usfiscaldata"
+      ],
+      "homepage": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "license": "MIT (each skill keeps its own license)",
+      "author": {
+        "name": "K-Dense AI"
+      }
+    },
+    {
+      "name": "arsenal-documents",
+      "description": "Documents & files: markitdown, liteparse, PPTX research posters (K-Dense). PDF/Word/Excel/PowerPoint come from anthropics/skills.",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agent-skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./markitdown",
+        "./liteparse",
+        "./pptx-posters"
+      ],
+      "homepage": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "license": "MIT (each skill keeps its own license)",
+      "author": {
+        "name": "K-Dense AI"
+      }
+    },
+    {
+      "name": "arsenal-visual-business",
+      "description": "Visual & business: AI images, infographics, market research reports, autoskill (K-Dense).",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agent-skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./generate-image",
+        "./infographics",
+        "./market-research-reports",
+        "./autoskill"
+      ],
+      "homepage": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "license": "MIT (each skill keeps its own license)",
+      "author": {
+        "name": "K-Dense AI"
+      }
+    },
+    {
+      "name": "arsenal-finance",
+      "description": "Financial statements analysis, financial models (DCF, Monte Carlo) and brand guidelines, from Anthropic's Claude Cookbooks.",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/claude-cookbooks",
+        "path": "skills/custom_skills"
+      },
+      "strict": false,
+      "skills": [
+        "./analyzing-financial-statements",
+        "./creating-financial-models",
+        "./applying-brand-guidelines"
+      ],
+      "homepage": "https://github.com/anthropics/claude-cookbooks",
+      "license": "MIT",
+      "author": {
+        "name": "Anthropic"
+      }
+    },
+    {
+      "name": "founder-skill",
+      "description": "Founder: 11 skills that test a business before launch: board, competitors, 100-buyer consumer panel, pricing, offer, CFO, marketing, brand, ops, launch, business plan.",
+      "source": {
+        "source": "github",
+        "repo": "Jakeschincariol/founder-skill"
+      },
+      "homepage": "https://github.com/Jakeschincariol/founder-skill",
+      "license": "MIT",
+      "author": {
+        "name": "Jake Schincariol"
+      }
+    },
+    {
+      "name": "arsenal-n8n-workflows",
+      "description": "Find and adapt n8n workflows from the Zie619/n8n-workflows library.",
+      "source": "./plugins/arsenal-n8n-workflows",
+      "homepage": "https://github.com/Zie619/n8n-workflows",
+      "author": {
+        "name": "Sahil Bagaria"
+      }
+    }
+  ]
+}
